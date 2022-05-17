@@ -1,0 +1,12 @@
+.category-container1 {
+  h2 {
+    text-align: center;
+    font-size: 35px;
+  }
+  .category-product-contaienr {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+    row-gap: 50px;
+  }
+}
